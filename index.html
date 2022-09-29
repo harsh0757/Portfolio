@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/107e517948.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#header" class="logo"><span>Port</span><span1>folio</span1></a>
+          <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fas  fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Harsh</span></h1>
+            <p>Engineer</p>
+        </div>
+    </div>
+</div>
+
+<!--------------------------about---------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Harsh1.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am currently pursuing my Bachelors degree in Computer Science Engineering From Chitkara University.You Can Find Me Playing Around The Web And Sometimes ,You Can Catch Me Solving Coding Problems On Different Platforms Such As Hackerrank , Leetcode And Many More . I Like To Explore New Technologies And Always Try To Find Something From Nothing . I Have Created Many Projects To Enhance My Skills And Always Looking For Opportunity To Switch From Development To Production Mode. I Hope You Like This Website!! 😄</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>C++</span><br></li>
+                    <li><span>OOPs</span><br></li>
+                    <li><span>DataStructures and Algorithm</span><br></li>
+                    <li><span>Front-End developer</span><br></li>
+                    <li><span>Database Management(DBMS)</span><br></li>
+                    <li><span>SQL</span><br></li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <li><span>2019-Present</span><br><br>Chitkara University <br><span class="short">Rajpura,Punjab<br>Bachelors of Engineering in computer science</span><br><br>
+                    <li><span>Cgpa Till Current Semester:8.25</span><br></li>
+                </ul>
+                <br><br>
+                <ul>
+                    <ul>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <li><span>2018-2019</span><br><br>KRDAV Public School<br><span class="short">Safidon,Haryana<br>Class XII|CBSE</span><br><br>
+                        <li><span>Marks Obtained : 72.8%</span><br></li>
+                    </ul>
+                    <br><br>
+                </ul>
+                <ul>
+                    <ul>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <li><span>2017-2018</span><br><br>KRDAV Public School<br><span class="short">Safidon,Haryana<br>Class X|CBSE</span><br><br>
+                        <li><span>Marks Obtained : 85.5%</span><br></li>
+                    </ul>
+                    <br><br>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!------------------------Projects-------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fas fa-shoe-prints"></i>
+                <h2>Shoe Website</h2>
+                <p>This project is based on Front-end Technologies.It is an E-Commerce Webiste where you shop your favourite clothes and other accessories at a resonable price</p>
+                <a href="https://harsh0757.github.io/Shoe-Wesbite/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>Blog Website</h2>
+                <p>This project is based on Bootstrap.A blogging website. where, Courses and references can be found  and users can Learn new technologies as well as they could share their own programming Knowledge.</p>
+                <a href="https://harsh0757.github.io/Blog-Website/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-list-ol"></i>
+                <h2>TODO List</h2>
+                <p>I Have Used ReactJs To Create This Project.In This Project I Have Added Several Buttons To Move The Tasks Up Down And Delete And Edit The Particular Tasks According To The User’s Choice.</p>
+                <a href="https://harsh0757.github.io/Todo_List/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-address-card"></i>
+                <h2>Portfolio Website</h2>
+                <p>This Site Is Related To My Personal Portfolio.I Have Created This Website Using Html, Css, Bootstrap And Jquery.It Contains Many Interesting Things Like About Me And My Projects.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------Contact ------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>harshchanana38@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8295358325</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/harsh-chanana-bbaba3183/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/harsh0757"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/chananaharshit0"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/harshchanana_/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Harsh Resume.pdf" download class="btn1">Downlaod CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button pointer type="sumbit" class="btn2">Sumbit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa fa-copyright"></i> Harsh. Personal Portfolio</p>
+    </div>
+</div>
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxj_1V5im_yUpdTPV-x1V4qnpTO5Zy3rXfb61u0aKtOfZLxUBKphLx8VxiMdIQ0zNWs8Q/exec'
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },1000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  </body>
+</html>
